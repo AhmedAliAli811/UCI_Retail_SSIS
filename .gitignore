@@ -1,3 +1,2 @@
-orignal_data\ 
-test_data\ 
-source_data\ 
+orignal_data/ 
+*.csv 
