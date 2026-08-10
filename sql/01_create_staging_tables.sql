@@ -4,14 +4,14 @@ go
 Create SCHEMA Staging;
 go
 
-CREATE TABLE Staging.SalesRaw
+Create TABLE Staging.SalesRaw
 (
-    InvoiceNo VARCHAR(15),
-    StockCode VARCHAR(15),
-    Description NVARCHAR(30),
-    Quantity INT,
-    InvoiceDate DATETIME2,
-    UnitPrice DECIMAL(10,2),
-    CustomerID VARCHAR(15),
-    Country NVARCHAR(30)
+    InvoiceNo    NVARCHAR(50),
+    StockCode    NVARCHAR(50),
+    Description  NVARCHAR(255),
+    Quantity     NVARCHAR(50),
+    InvoiceDate  NVARCHAR(50),
+    UnitPrice    NVARCHAR(50),
+    CustomerID   NVARCHAR(50),
+    Country      NVARCHAR(100)
 );
