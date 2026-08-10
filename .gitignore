@@ -1,2 +1,7 @@
 orignal_data/ 
 *.csv 
+bin\ 
+obj\ 
+*.user 
+*.params 
+*.database 
