@@ -1,7 +1,12 @@
 orignal_data/ 
 *.csv 
-bin\ 
-obj\ 
+bin/ 
+obj/ 
 *.user 
 *.params 
 *.database 
+.vs/
+*.log
+*.tmp
+*.bak
+*.db
