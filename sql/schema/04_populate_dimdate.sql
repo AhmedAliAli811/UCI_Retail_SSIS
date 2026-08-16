@@ -1,7 +1,7 @@
 USE Retail_DW;
 go
 
-DECLARE @StartDate DATE = '2020-01-01';
+DECLARE @StartDate DATE = '2000-01-01';
 DECLARE @EndDate DATE = '2026-12-31';
 
 With DateSeries as (
@@ -34,7 +34,8 @@ SELECT
     DAY(FullDate) AS Day,
     DATEPART(WEEKDAY, FullDate) AS DayOfWeekNumber
 FROM DateSeries
-OPTION (MAXRECURSION 0);
-GO;
+OPTION (MAXRECURSION 0)
+Go
 
-select top 10 * from DW.DimDATE;
+SELECT MIN(FullDate) AS MinDate, MAX(FullDate) AS MaxDate, COUNT(*) AS TotalDays
+FROM DW.DimDate;

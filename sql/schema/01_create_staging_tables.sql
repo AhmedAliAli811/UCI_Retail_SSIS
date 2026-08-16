@@ -3,9 +3,9 @@ go
 
 Create SCHEMA Staging;
 go
-
 Create TABLE Staging.SalesRaw
 (
+	RunID INT NULL,
     InvoiceNo    NVARCHAR(50),
     StockCode    NVARCHAR(50),
     Description  NVARCHAR(255),
