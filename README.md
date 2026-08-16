@@ -195,7 +195,7 @@ Valid rows are matched against `DimDate`, `DimCustomer`, and `DimProduct` (guara
 
 ## Database Schema
 
-![Star schema diagram](docs/schema.png)
+![Star schema diagram](docs/Schema.png)
 
 ```sql
 DW.DimCustomer   (CustomerKey PK, CustomerID, Country, EffectiveDate, ExpiryDate, IsCurrent)
