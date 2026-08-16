@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="CM_RetailStaging"
+  DTS:DTSID="{689200B0-5400-4F5B-9DE2-A5C15A12B3E2}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=Retail_Staging;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package_StageSales-{689200B0-5400-4F5B-9DE2-A5C15A12B3E2}localhost.Retail_Staging;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
